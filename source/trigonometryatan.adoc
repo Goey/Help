@@ -4,7 +4,7 @@
 *Syntax*:
 [subs="quotes"]
 ----
-    byte_variable = atan (_x_vector_,_y_vector_)
+    word_variable = atan (_x_vector_,_y_vector_)
 ----
 
 *Explanation*:
@@ -14,7 +14,7 @@ Great Cow BASIC supports Three Primary Trigonometric Functions.
 
 *Details:*
 
-Great Cow BASIC supports the following functions ATan( x, y) where x and y are the vectors.  The function returns a word representing the angle measured in a whole number of degrees.
+Great Cow BASIC supports the ATan(x, y) function, where x and y are the vectors.  The function returns a WORD representing the angle measured in a whole number of degrees.
 
 The function also returns a global variable NegFlag with returns the quadrant of the angle.
 
